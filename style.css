@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fbfeff;
+    display: none;
+}
+.bgdesign{
+    position: relative;
+    height: 21vh;
+}
+
+
+@media screen and (max-width:375px) {
+    body{
+        display: block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .bgdesign{
+        position: relative;
+        height: 7.65em;
+        width: 40%;
+        border-bottom-right-radius: 150px;
+    }
+    .design{
+        background-color: #307a59;
+        opacity: 0.7;
+        height: 7.5em;
+        width: 65%;
+        border-bottom-right-radius: 100px;
+        float: left;
+    }
+    .design2{
+        height: 5.5em;
+        width: 100%;
+        background-color: #307a59;
+        opacity: 0.7;
+        position: absolute;
+        margin-left: 0px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 80px;
+    }
+    .top-text{
+        margin-left: 20px;
+    }
+    .name{
+        text-transform: capitalize;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #218458;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 35px;
+    }
+    footer button a{
+        text-decoration: none;
+        color: #111;
+    }
+    footer button{
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        border: 2px solid #218458;
+        float: right;
+        margin-top: 200px;
+    }
+    footer button:hover{
+        border: 2px solid black;
+    }
+    /**first page ends here**/
+
+
+    /**signup page starts here**/
+.signup{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.signup p{
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+}
+
+.signup-form{
+    margin-top: 40px;
+}
+.signup-form input{
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px 2px grey;
+    margin-left: 55px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reg-login{
+    width: 70%;
+    padding: 10px;
+    background-color: #218458;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border: 1px solid white;
+    box-shadow: 0 4px 4px 2px grey;
+    margin-left: 55px;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reg-login:hover{
+    background-color: white;
+    color: #218458;
+    border: 1px solid #218458;
+}
+.reg-p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+}
+/**signup page ends here**/
+
+
+/**login page**/
+.login-text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.login-text p{
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login-form{
+    margin-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+.login-form input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px 2px grey;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login-form button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px 2px grey;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login-form .password{
+    margin-top: 10px;
+}
+.login-form .password a{
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+/**login page style ends here**/
+
+
+/***welcome page**/
+   .congrats{
+       height: 9em;
+       margin-top: -20px;
+       text-align: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .congrats h1{
+       color: #218458;
+       margin-right: 95px;
+   }
+   .congrats h3{
+       font-weight: bold;
+       margin: 20px;
+   }
+   .congrats p{
+       font-weight: bold !important;
+       color: grey;
+       font-size: 15px;
+   }
+   .food1{
+       border: 2px solid rgb(251, 250, 250);
+       width: 50%;
+       height: 12.5em;
+       border-radius: 50%;
+       margin: 0 auto;
+       box-shadow: 0 0 4px 3px rgb(156, 151, 151);
+       margin-top: 20px;
+   }
+   .food2{
+       border: 7px solid rgb(180, 179, 177);
+       width: 100%;
+       border-radius: 50%;
+       height: 12.2em;
+   }
+   .food2 img{
+       width: 100%;
+       border-radius: 50%;
+       height: 13.4em;
+       margin-top: -10px;
+   }
+   .container-welcome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .container-welcome p{
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+   }
+   .container-welcome input{
+       width: 65%;
+       padding: 10px;
+       border-radius: 20px;
+       margin-left: 65px;
+       font-weight: bold;
+       color: white;
+       background-color: #218458;
+       margin-top: 40px;
+       border: 2px solid rgb(253, 252, 252);
+       box-shadow: 0 2px 4px 2px grey;
+   }
+   .container-welcome input:hover{
+       background-color: white;
+       color: #218458;
+       border: 2px solid #218458;
+   }
+    /**the welcome page that whises congrats,the syle guide ends here**/
+
+
+   /**home page styling***/
+   .container-home{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .wrap{
+    height: 31em;
+    overflow-y: scroll;
+   }
+   .container-home .text{
+    margin-top: -40px;
+}
+.container-home .text h2{
+    color: #218458;
+    text-align: center;
+    margin-right: 90px;
+}
+.text .delv{
+    background-color: #218458;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 0 auto;
+    box-shadow: 0 0 3px 2px grey;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.container-home h4{
+    margin-left: 50px;
+    color: #218458;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/***dish***/
+.container-home .wrap .dish{
+    height: unset;
+}
+/**container for the food with price**/
+.dish .col{
+    float: left;
+    width: 35%;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 21px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 4px 2px grey;
+}
+
+.dish:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/**food image in the dish list**/
+.dish .food img{
+    width: 100%;
+    height: 7em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid grey;
+}
+/**price under food**/
+.dish .col p{
+    font-weight: bold;
+    color: #218458;
+}
+
+/***nav styling, inside element footer**/
+
+footer nav{
+    height: 3em;
+    text-align: center;
+    width: 100%;
+}
+/**nav icons**/
+footer nav ul li svg{
+    width: 60%;
+    height: 4em;
+    position: relative;
+    top: 15px;
+    margin-top: -29px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: #218458;
+    border-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul li a:hover{
+    color: black;
+}
+/**nav end**/
+
+/**menu page**/
+
+.container-menu .text{
+    margin-top: -40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-menu .text h2{
+    color: #218458;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.dropdown-btn{
+   position: relative;
+   font-size: large;
+   font-weight: bold;
+   background-color: white;
+   border: 2px solid black;
+   border-radius: 10px;
+   text-transform: capitalize;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   float: right;
+   padding: 5px;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+.dropdown-btn:hover{
+    background-color: #218458;
+    color: white;
+}
+.dropdown-btn .dropdown-content{
+    position: absolute;
+    box-shadow: 0 0 2px 2px grey;
+    min-width: 100px;
+    border-radius: 15px;
+    z-index: 2;
+    display: none;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 10px;
+}
+.dropdown-btn:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content li{
+    list-style-type: none;
+    margin: 10px;
+}
+.dropdown-content li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.dropdown-content li a:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
+.dropdown-content li a:hover::after{
+    width: 100%;
+}
+
+
+.container-menu h4{
+    margin-left: 50px;
+    color: #218458;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.container-home hr{
+    width: 50%;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+
+/***cart style guide**/
+.container-cart .text{
+    margin-top: -40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-cart .text h2{
+    color: #218458;
+    text-align: center;
+    margin-right: 90px;
+}
+.container-cart hr{
+    width: 50%;
+}
+
+/**empty cart box**/
+.empty-cart{
+    background-color: grey;
+    height: 12em;
+    width: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 2px 3px grey;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+    border-radius: 10px;
+}
+.empty-cart .top-handle{
+    background-color: #218458;
+    height: 2em;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -18px;
+    border-radius: 5px;
+}
+.empty-cart .basket{
+    width: 60%;
+    height: 6em;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.empty-cart img{
+    width: 100%;
+    height: 6em;
+}
+
+/**food detail page style***/
+.container-detail .item{
+    margin: 0 auto;
+    width: 55%;
+    height: 9em;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px rgb(189, 189, 189);
+    margin-top: -30px;
+}
+.container-detail .item img{
+    width: 97%;
+    height: 8.5em;
+    margin-top: -24px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+/**information**/
+.info{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.info .cols{
+    float: left;
+}
+.info::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.info .text{
+    width: 100%;
+    text-align: center;
+
+}
+.info .text h2{
+    text-align: center;
+}
+.info .favourite{
+    width: 20%;
+}
+.info .favourite img{
+    width: 50%;
+    height: 1.4em;
+    float: right;
+}
+/**second detail**/
+.info-b{
+    width: 55%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.info-b .cols{
+    margin-top: 10px;
+}
+.info-b::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/**input box wrap**/
+.info-b .add-minus{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #218458;
+    border-radius: 10px;
+    border-top: 0;
+}
+/**input box for number of item to buy**/
+.how-many{
+    width: 70%;
+    border: none;
+    text-align: center;
+    margin-left: 15px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+}
+/**price-box of item**/
+.info-b .amount{
+    position: relative;
+    left: 27px;
+    width: 40%;
+    height: 2em;
+    float: right;
+    color: #218458;
+    margin-top: -32.5px;
+    border: 2px solid #218458;
+    border-top: none;
+    border-left: none;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.container-detail button{
+    background-color: #218458;
+    border: 2px solid white;
+    box-shadow: 0 0 2px 3px rgb(149, 147, 147);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/**profile style guide**/
+   .container-profile{
+    position: relative;
+   }
+   .container-profile .text{
+    margin-top: -40px;
+}
+.container-profile .text h2{
+    color: #218458;
+    text-align: center;
+    margin-right: 90px;
+}
+.container-profile hr{
+    width: 50%;
+}
+
+}
